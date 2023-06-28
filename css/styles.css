@@ -210,6 +210,14 @@ align-items: center;
   width: 264px;
   width: calc((100% - 3*24)/4);
 }
+.li-two-item {
+  display: flex;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-top: 24px;
+ margin-bottom: 32px;
+
+}
 /* SECTION N3 */
 .section-three {
   padding-bottom: 120px;
@@ -251,7 +259,6 @@ width: calc((100% - 2 * 24px) / 3)
 .section-four-list {
   background-color: var(--background-color);
   border-radius: 0px 0px 4px 4px;
-    background:  var(--background-color);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .section-four-tittle {
@@ -285,6 +292,25 @@ width: 264px;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--font-color);
+}
+.list-four-svg {
+  display: flex;
+  gap: 24px;
+  margin-top: 8px;
+}
+.four-svg {
+  margin-right: 24px;
+box-sizing: content-box;
+padding: 12px 12px;
+  border-radius: 50%;
+  background-color: var(--color-ocean);
+}
+.four-svg:focus,
+.four-svg:hover{
+background-color:var(--color-link);
+}
+.four-svg:nth-last-child(1) {
+margin-right: 0px;
 }
 /* SECTION N5 */
 .section-five {
@@ -329,7 +355,7 @@ margin: 16px 32px;
   padding: 100px 0;
 }
 
-.footer > .container > .link {
+.footer > .container >.footer-container-studio > .link {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -339,7 +365,7 @@ margin: 16px 32px;
   color: var(--color-ocean);
   text-decoration: none;
   display: inline-block;
-  margin-bottom: 16px;
+  
 }
 
 .footer-studio {
@@ -353,16 +379,52 @@ margin: 16px 32px;
   color: var(--background-color-bwhite);
 }
 .footer-p {
+  display: flex;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--background-color-bwhite);
   max-width: 264px;
+  margin-top: 17px;
+}
+.footer-tittle { 
+  font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: var(--background-color);
+    margin-left: 120px;
+    margin-bottom: 16px;
+}
+.list-footer-svg{
+  display: flex;
+  gap: 16px;
+  margin-left: 120px;
+}
+.footer-svg {
+  box-sizing: content-box;
+  padding: 12px 12px;
+    border-radius: 50%;
+    background-color:var(--color-ocean);
+}
+.footer-svg:focus,
+.footer-svg:hover {
+  background-color: #31D0AA;
+}
+.footer-container{
+  display: flex;
+}
+.foote-svg-container{
+  display: flex;
+  
 }
 /* Portfolio */
 .sectionptfl {
   padding-top: 96px;
     padding-bottom: 120px;
+}
+.portfolio-item-link:hover {
+ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .btn-all {
