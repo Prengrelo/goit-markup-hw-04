@@ -591,7 +591,8 @@ border: 1px solid transparent;
       line-height: 1.2;
       letter-spacing: 0.32px;
 }
-.list-item-portfolio:hover .overlay {
+.list-item-portfolio:hover .overlay,
+.list-item-portfolio:focus .overlay {
 transform: translateY(0);
 }
 /* Modal window */
